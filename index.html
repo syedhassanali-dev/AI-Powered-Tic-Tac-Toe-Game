@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Teo Game With JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+    <header id="header">
+        <div class="player playerActive" id="xPlayerDisplay" onclick="chosePlayer('X')">X</div>
+        <h3 id="titleHeader">Chose</h3>
+        <div class="player" id="oPlayerDisplay" onclick="chosePlayer('O')">O</div>
+    </header>
+
+    <div id="board">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+    </div>
+    <button id="restartBtn">Restart</button>
+    </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
